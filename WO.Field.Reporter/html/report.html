@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>Site Title</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--[if lt IE 9]>
+    <script src=""></script>
+    <![endif]-->
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-table.min.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/font.awesome.all.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="wo.ico">
+    <!-- site specific CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script type="text/javascript" src="assets/Data.json">
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <!-- Home page link on the left -->
+        <a class="navbar-brand" href="#"  data-toggle="tooltip" title="Field Finder" data-placement="bottom">Field Finder</a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" data-toggle="tooltip" title="Enter a keyword..." data-placement="left">
+                    <form class="form-inline" id="searchform" method="get" action="#">
+                        <input type="text" name="q" size="35" class="input form-control" placeholder="Search..."
+                            id="search_query">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id='container' class="container-fluid mw-100 p-0 m-0">
+
+        <div class="panel-container" style="margin-top: 55px;">
+
+            <div class="panel-left bg-dark ">
+                <nav class="navbar navbar-dark bg-dark">
+                    <ul class="navbar-nav nav-list" id="nav-left">
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="panel-right" id="panel-right">
+                <h3 id="paner-right-header"></h3>
+                <div id="tables"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- jQuery  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Boostrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-table.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/font.awesome.all.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+    <script>
+    </script>
+
+
+
+
+</body>
+
+</html>
